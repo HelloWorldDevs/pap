@@ -752,7 +752,8 @@ p {
     font-weight:400;
 }
 #services-carousel {
-    padding:40px;
+    padding-bottom:20px;
+    padding-top:40px;
 }
 #oc-portfolio > div.owl-dots {
     display:none;
@@ -766,4 +767,68 @@ p {
     font-size:21px;
     top:2px;
 }
+
+.owl-carousel  .owl-nav .owl-next {
+    right:-18px;
+}
+.owl-carousel  .owl-nav .owl-prev {
+    left:-18px;
+}
+.owl-carousel .owl-nav [class*=owl-] {
+    opacity:1 !important;
+}
 /** END OWL CAROUSEL **/
+
+/* PATIENT CENTER */
+#patient-center p {
+    font-size:18px;
+    color:#FFF;
+    margin-bottom:40px;
+    font-family:'Source Sans Pro', sans-serif;
+    line-height:22px;
+}
+#patient-center h2 {
+    color:#FFF;
+    margin-bottom:5px;
+}
+#patient-center {
+    padding:50px 0;
+    background:#3C948B;
+}
+#patient-center .row {
+    display:flex;
+    justify-content:space-between;
+}
+#patient-center .button-2 {
+    /* Rectangle 2 Copy 3: */
+    background: rgba(255,255,255,0.25);
+    border: 2px solid #FFFFFF;
+    border-radius: 18px;
+}
+#patient-center .button-2:hover {
+    background: rgba(255,255,255,0.35);
+
+}
+.device-sm #patient-center .button-2 {
+    padding-left:25px;
+    padding-right:25px;
+    font-size:16px;
+}
+.device-xs #patient-center .row, .device-xxs #patient-center .row {
+    display:inherit;
+    text-align:center;
+}
+.device-xs .button-2, .device-xxs .button-2 {
+    margin-bottom:20px;
+
+}
+.device-xs #patient-center p, .device-xxs #patient-center p {
+    font-weight:400;
+}
+.device-xs #patient-center > div > div.row > a:nth-child(3), .device-xxs #patient-center > div > div.row > a:nth-child(3) {
+    padding-left:60px;
+    padding-right:60px;
+}
+.device-xxs #patient-center h2 {
+    font-size:36px;
+}
