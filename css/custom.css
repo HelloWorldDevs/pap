@@ -275,3 +275,154 @@ p {
 #meet-the-doctor .owl-carousel .owl-dots {
     display:none;
 }
+
+/** SPECIALS **/
+#fall-specials {
+    background:url('../images/specials-bkgd.jpg');
+    background-size:cover;
+    background-position:0% 0%;
+}
+
+.section-specials {
+    padding-top:65px;
+    padding-bottom:20px;
+    background:#484F52;
+}
+.section-specials h2 {
+    margin-bottom:0;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.50);
+    font-size:48px;
+    color:#FFF;
+    font-weight:400;
+    line-height:50px !important;
+}
+
+
+.section-specials .col-xs-12 p {
+    /* Offer Ends by Decemb: */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    font-weight:400;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.75);
+    color:#FFF;
+}
+.specials-1 {
+    background: #DF6C4F;
+    color:#DF6C4F
+}
+.specials-2 {
+    background: #9C937D;
+    color:#9C937D
+}
+
+.specials-3 {
+    background: #7757A6;
+    color:#7757A6;
+}
+.specials-row h5 {
+    font-size:36px;
+    color:#FFF;
+    font-weight:700;
+    line-height:40px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.specials-row p {
+    line-height:25px !important;
+    margin-top:20px;
+    margin-bottom:10px;
+    color:#4A4A4A;
+    font-size:18px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+.specials-label {
+    font-size:14px;
+    color:#4A4A4A;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+}
+.specials-save {
+    font-size:18px;
+    text-transform:uppercase;
+    background:none;
+    font-weight:700;
+}
+.section-specials .col-md-4 {
+    border-radius:8px;
+    padding:0;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom:20px;
+    background:#FFF;
+    margin-bottom:50px;
+}
+.section-specials .container {
+    padding-left:0;
+    padding-right:0;
+}
+.specials-row {
+    display:flex;
+    text-align:center;
+}
+.specials-top {
+    height:196px;
+    padding-top:15px;
+    border-radius:8px 8px 0px 0px;
+}
+.specials-circle {
+    position:relative;
+    border:7px solid #FFF;
+    width:146px;
+    height:146px;
+    border-radius:50%;
+    top:-73px;
+    margin:0 auto;
+    margin-bottom:-73px;
+}
+.specials-bottom {
+    padding-top:10px;
+    padding-left:12.5px;
+    padding-right:12.5px;
+}
+.specials-save {
+    font-size:18px;
+    font-weight:400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.price {
+    font-size:90px;
+    color:#FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.dollar {
+    font-size:36px;
+    color:#FFF;
+    top:-18px;
+    position:relative;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.device-md .specials-row p, .device-sm .specials-row p, .device-xs .specials-row p, .device-xxs .specials-row p {
+    margin-top:10px;
+}
+
+.device-sm .specials-row, .device-xs .specials-row, .device-xxs .specials-row {
+    display:inherit;
+}
+.device-sm .section-specials .col-md-4, .device-xs .section-specials .col-md-4, .device-xxs .section-specials .col-md-4 {
+    max-width:400px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+
+.device-xxs .section-specials h2 {
+    font-size:44px;
+}
+.device-xxs #summer-specials > div > div:nth-child(1) > div > div > p {
+    font-size:20px;
+}
+
+
+/** END SPECIALS **/
