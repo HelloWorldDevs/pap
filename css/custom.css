@@ -110,7 +110,7 @@ p {
 #slide-2 > div > div {
     margin-top:-100px;
 }
-.device-md #slide-3 .slider-caption.slider-caption-right {
+#slide-3 .slider-caption.slider-caption-right {
     margin-right:-100px;
 }
 #slide-3 h2 {
@@ -138,4 +138,7 @@ p {
 #slide-3 .button {
     padding-left:100px;
     padding-right:100px;
+}
+#mobile-slider img {
+    width:100%;
 }
