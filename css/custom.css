@@ -1,3 +1,33 @@
+body {
+
+}
+
+h1 {
+    font-size:80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:900;
+    margin-bottom:0;
+}
+h2 {
+    font-size:60px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3 {
+    font-size:48px;
+}
+h4 {
+    font-size:36px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h5 {
+    font-size:24px;
+}
+p {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight:400;
+}
+
+/** NAV BAR **/
 #primary-menu ul li > a {
     font-size: 20px;
     font-family: 'Archivo Narrow', sans-serif;
@@ -40,4 +70,69 @@
 }
 #primary-menu-trigger {
     font-size:25px;
+}
+
+/** slider **/
+
+#slide-1 h1 {
+    text-shadow: 2px 2px 4px #555555;
+    line-height:70px;
+}
+#slide-1 h4 {
+    font-weight:400;
+    text-shadow: 1px 1px 5px #000000;
+    margin-bottom:80px;
+}
+#slide-1 p {
+    text-shadow: 1px 1px 5px #000000;
+}
+#slide-2 h2 {
+    color:#3C948B;
+    font-weight:900;
+    text-transform:none;
+}
+.icon-star3 {
+    color:#FFBF00;
+    font-size:30px;
+}
+#slide-2 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:300;
+    color:#000;
+    padding-right:100px;
+    margin-bottom:30px;
+    font-size:30px;
+}
+#slide-2 .author {
+    font-size:24px;
+}
+
+#slide-2 > div > div {
+    margin-top:-100px;
+}
+#slide-3 h2 {
+    font-weight:900;
+    color:#FFF;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.50);
+    letter-spacing:0;
+    margin-bottom:0;
+}
+#slide-3 h4 {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight:400;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.50);
+}
+#slide-3 p {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size:24px;
+    color:#FFF;
+    padding-right:250px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.50);
+    line-height:30px;
+    margin-bottom:30px;
+}
+#slide-3 .button {
+    padding-left:100px;
+    padding-right:100px;
 }

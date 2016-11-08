@@ -6577,23 +6577,24 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 
 
 .button {
+	background:#FF7A00;
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
 	outline: none;
 	white-space: nowrap;
-	margin: 5px;
 	padding: 0 22px;
-	font-size: 14px;
+	font-size: 18px;
 	height: 48px;
 	line-height: 40px;
 	color: #FFF;
-	font-weight: 600;
-	letter-spacing: 1px;
-	border: 1px solid #FFF;
-	padding-top:4px;
+	font-weight: 400;
+	border: 2px solid #FFF;
+	padding-top:2px;
 	padding-left:45px;
+	border-radius:12px;
 	padding-right:45px;
+	font-family: 'Archivo Narrow', sans-serif;
 }
 
 .button:hover {
