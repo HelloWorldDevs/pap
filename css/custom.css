@@ -426,3 +426,48 @@ p {
 
 
 /** END SPECIALS **/
+
+/** SECTION PATIENT REVIEWS **/
+.section-patient-reviews {
+    background:url("../images/reviews-section-pap.jpg");
+    padding-top:50px;
+    padding-bottom:20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.device-md .section-patient-reviews, .device-sm .section-patient-reviews {
+    background-position:100% 100%;
+}
+.device-xs .section-patient-reviews, .device-xxs .section-patient-reviews {
+    background:#CEDCDF;
+}
+
+.section-patient-reviews h2 {
+    font-size: 48px;
+    color: #000000;
+}
+
+.bf-spn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.bf-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #000000 !important;
+}
+.bf-pro:hover {
+    text-decoration:underline !important;
+}
+.device-sm #bfpublish {
+    max-height:510px;
+}
+.device-xxs #bfpublish {
+    max-height:350px;
+}
+.device-xxs .section-patient-reviews h2 {
+    font-size:36px;
+}
+
+/** END SECTION PATIENT REVIEWS **/
