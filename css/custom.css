@@ -9,8 +9,9 @@ h1 {
     margin-bottom:0;
 }
 h2 {
-    font-size:60px;
+    font-size:48px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
 }
 h3 {
     font-size:48px;
@@ -106,6 +107,7 @@ p {
 }
 #slide-2 h2 {
     color:#3C948B;
+    font-size:60px;
     font-weight:900;
     text-transform:none;
 }
@@ -138,6 +140,7 @@ p {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.50);
     letter-spacing:0;
     margin-bottom:0;
+    font-size:60px;
 }
 #slide-3 h4 {
     font-size: 36px;
@@ -231,4 +234,19 @@ p {
 .device-xs .existing-phone, .device-xxs .existing-phone {
     font-size:24px;
     margin-top:-15px;
+}
+
+/** MEET THE DOCTOR **/
+
+#meet-the-doctor {
+    padding-top:60px;
+}
+#meet-the-doctor h2 {
+    color:#000000;
+}
+#meet-the-doctor p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#555;
+    font-size:16px;
+    line-height:23px;
 }
