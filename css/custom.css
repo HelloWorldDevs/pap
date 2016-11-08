@@ -646,3 +646,124 @@ p {
 .device-xxs .services > div > div.row .img {
     text-align:center;
 }
+.device-xs .services p, .device-xxs .services p {
+    font-size:16px;
+    font-weight:400;
+    line-height:25px !important;
+    margin-bottom:15px;
+}
+
+/** OWL CAROUSEL **/
+.owl-carousel .owl-nav [class*=owl-] {
+    top:52%;
+    background-color:#007DA9;
+    color:#FFF;
+    border:1px solid #FFF;
+}
+.device-sm .section-meet-your-dental-team .owl-carousel .owl-nav [class*=owl-] {
+    top:53.5%;
+}
+
+.icon-plus {
+    position:relative;
+    top:36.5%;
+    font-size:50px;
+    color:#FFF;
+    font-weight:400;
+}
+
+.portfolio-item:hover .portfolio-overlay, .iportfolio:hover .portfolio-overlay {
+    opacity:.65;
+}
+.portfolio-overlay:hover {
+    cursor:pointer;
+}
+.device-md .icon-plus {
+    top:33%;
+}
+
+.device-sm .icon-plus {
+    top:42%;
+}
+
+.device-xs .icon-plus {
+    top:33%;
+}
+
+.device-xxs .icon-plus {
+    top:37%;
+}
+
+#oc-portfolio > div.owl-nav > div.owl-prev > i {
+    position:relative;
+    left:-2px;
+    font-size:25px;
+    top:3px;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    background-color:#FFF;
+    height:18px;
+    width:18px;
+    border: 2px solid #68B2A5;
+}
+#oc-portfolio > div.owl-dots > div.owl-dot.active > span {
+    background-color:#68B2A5;
+}
+#oc-portfolio > div.owl-nav > div.owl-next > i {
+    position:relative;
+    left:2px;
+    font-size:25px;
+    top:3px;
+}
+.owl-carousel.owl-nav {
+    background-color:#4EA292 !important;
+    background:#4EA292 !important;
+}
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color:#008CBE;
+}
+
+
+.device-xs #services-carousel .icon-plus {
+    top:35%;
+}
+.device-sm #services-carousel .icon-plus {
+    top:35%;
+}
+.device-lg #services-carousel .icon-plus {
+    top:38%;
+}
+.device-md #services-carousel .icon-plus {
+    top:36%;
+}
+
+
+.device-sm .section-services-slider .owl-carousel .owl-nav [class*=owl-] {
+    top:38%;
+}
+
+
+
+#services-carousel h5 {
+   font-family: 'Archivo Narrow', sans-serif;
+    font-size: 24px;
+    color: #3C948B;
+    font-weight:400;
+}
+#services-carousel {
+    padding:40px;
+}
+#oc-portfolio > div.owl-dots {
+    display:none;
+}
+#services-carousel .owl-carousel .owl-nav [class*=owl-] {
+    top:44%;
+    background:#3C948B;
+    font-size:24px;
+}
+#oc-portfolio > div.owl-nav > div.owl-prev > i, #oc-portfolio > div.owl-nav > div.owl-next > i {
+    font-size:21px;
+    top:2px;
+}
+/** END OWL CAROUSEL **/
