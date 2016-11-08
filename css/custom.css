@@ -520,7 +520,7 @@ p {
     padding-right:100px;
 }
 .device-md #membership-club {
-    background-position-x: 30%;
+    background-position-x: 33%;
 }
 .device-md #membership-club > div > div > div.col-md-6.center {
     text-align:right !important;
@@ -566,7 +566,7 @@ p {
     padding-right:25px;
     width:100%;
 }
-.device-xxs #membership-club {
+.device-xxs #membership-club, .device-xs #membership-club, .device-sm #membership-club {
     padding-top:30px;
     padding-bottom:30px;
 }
