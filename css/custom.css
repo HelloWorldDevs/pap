@@ -587,3 +587,62 @@ p {
 .device-md #membership-club {
     padding-top:120px;
 }
+.services {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#services {
+    background:#F4F4F4;
+}
+.services h5 {
+    font-size:24px;
+    font-family:'Archivo Narrow', sans-serif;
+    font-weight:400;
+    color:#3C948B;
+    margin-bottom:15px;
+}
+.services p {
+    font-size:14px;
+    color:#3E3C3B;
+    font-family:'Source Sans Pro', sans-serif;
+    line-height:20px !important;
+    margin-bottom:10px;
+}
+#sub-services .button {
+    margin-top:10px;
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.device-md .services .col-md-3.text {
+    margin-top:-10px;
+}
+#services-carousel {
+    background:#F4F4F4;
+}
+.device-sm .services .col-sm-7 {
+    margin-bottom:55px;
+}
+.device-sm #sub-services > div > div > div:nth-child(2) {
+    padding-bottom:55px;
+}
+.device-sm #services > div > div.row > div:nth-child(2) {
+    margin-bottom:115px;
+}
+
+.device-xs .services .img, .device-xxs .services img {
+    text-align:center;
+    margin-bottom:15px;
+}
+.device-xs .services .text, .device-xxs .services .text {
+    margin-bottom:40px;
+}
+.device-xs .button-wrap, .device-xxs .button-wrap {
+    text-align:center;
+}
+.device-xxs #services h2 {
+    font-size:42px;
+}
+.device-xxs .services > div > div.row .img {
+    text-align:center;
+}
