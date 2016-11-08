@@ -480,8 +480,8 @@ p {
 #membership-club {
     background:url('../images/membership-row-pap.jpg');
     background-size:cover;
-    padding-top:120px;
-    padding-bottom:150px;
+    padding-top:150px;
+    padding-bottom:200px;
 }
 #membership-club h2 {
     font-weight:900;
@@ -519,11 +519,19 @@ p {
     padding-left:100px;
     padding-right:100px;
 }
-.device-md #membership-club {
-    background-position-x: 33%;
+@media (max-width:1300px) {
+    #membership-club {
+        background-position-x: 33%;
+    }
 }
-.device-md #membership-club > div > div > div.col-md-6.center {
-    text-align:right !important;
+@media (max-width:1450px) {
+    #membership-club > div > div > div.col-md-6.center {
+        text-align: right !important;
+    }
+}
+
+.device-xs #membership-club > div > div > div.col-md-6.center, .device-xxs #membership-club > div > div > div.col-md-6.center, .device-sm #membership-club > div > div > div.col-md-6.center {
+    text-align: center !important;
 }
 .device-md #membership-club > div > div > div.col-md-6.center {
     left:10px;
@@ -569,4 +577,13 @@ p {
 .device-xxs #membership-club, .device-xs #membership-club, .device-sm #membership-club {
     padding-top:30px;
     padding-bottom:30px;
+}
+.device-lg #membership-club > div > div > div.col-md-6.center > p.hidden-sm.hidden-xs.hidden-xxs, .device-md #membership-club > div > div > div.col-md-6.center > p.hidden-sm.hidden-xs.hidden-xxs {
+    margin-bottom:50px;
+}
+.device-md #membership-club > div > div > div.col-md-6.center > p.hidden-sm.hidden-xs.hidden-xxs {
+    font-size:19px;
+}
+.device-md #membership-club {
+    padding-top:120px;
 }
