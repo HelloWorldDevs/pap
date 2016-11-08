@@ -474,3 +474,48 @@ p {
 }
 
 /** END SECTION PATIENT REVIEWS **/
+
+/** MEMBERSHIP CLUB **/
+
+#membership-club {
+    background:url('../images/membership-row-pap.jpg');
+    background-size:cover;
+    padding-top:120px;
+    padding-bottom:150px;
+}
+#membership-club h2 {
+    font-weight:900;
+    color:#FF7A00;
+    margin-bottom:-15px;
+    font-size:58px;
+}
+#membership-club h5 {
+    font-family:'Archivo Narrow', sans-serif;
+    font-weight:400;
+    font-size:32px;
+    color:#FF7A00;
+    line-height:40px;
+}
+#membership-club p {
+    color:#555555;
+    font-size:21px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:400;
+    margin-bottom:0;
+}
+#membership-club .list {
+    color:#555555;
+    font-size:18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#membership-club div.col-md-6.center > h5:nth-child(4) {
+    margin-bottom:50px;
+}
+#membership-club > div > div > div.col-md-6.center > p:nth-child(3) {
+    margin-bottom:30px;
+}
+#membership-club .button {
+    margin-top:50px;
+    padding-left:100px;
+    padding-right:100px;
+}
