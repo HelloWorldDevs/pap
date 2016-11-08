@@ -22,6 +22,9 @@ h4 {
 h5 {
     font-size:24px;
 }
+h6 {
+    font-size:18px;
+}
 p {
     font-family: 'Archivo Narrow', sans-serif;
     font-weight:400;
@@ -141,4 +144,72 @@ p {
 }
 #mobile-slider img {
     width:100%;
+}
+
+/** PHONE SLUG 1 **/
+#phone-slug-1 {
+    background: #3C948B;
+    padding-top:25px;
+    padding-bottom:0px;
+}
+.content-wrap {
+    padding:0;
+}
+#phone-slug-1 h6 {
+    font-size:18px;
+    color:#FFF;
+    line-height:22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+}
+#phone-slug-1 .text-phone {
+    font-size:36px;
+    font-weight:600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height:25px;
+}
+#phone-slug-1 .text-phone a {
+    color:#FFF;
+}
+#phone-slug-1  .col-sm-6.tleft {
+    border-left:1px solid #FFF;
+}
+#phone-slug-1 .button {
+    margin:2.5px 0;
+}
+#phone-slug-1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:21px;
+    color:#FFF;
+    margin-top:15px;
+}
+.existing-phone {
+    font-weight:600;
+}
+.existing-phone a {
+    color:#FFF;
+}
+.device-xs #phone-slug-1 div.col-sm-6.tright, .device-xxs #phone-slug-1 div.col-sm-6.tright {
+    text-align:center !important;
+}
+.device-xs #phone-slug-1 h6, .device-xxs #phone-slug-1 h6 {
+    font-size:24px;
+    font-weight:300;
+    margin-bottom:15px !important;
+}
+.device-xs .text-phone, .device-xxs .text-phone {
+    font-size: 40px !important;
+    margin-bottom:20px !important;
+}
+.device-xs #phone-slug-1 .col-sm-6.tleft, .device-xxs #phone-slug-1 .col-sm-6.tleft {
+    text-align:center !important;
+    border-left:none;
+}
+.device-xs p, .device-xxs p {
+    font-size:20px;
+    font-weight:300;
+}
+.device-xs .existing-phone, .device-xxs .existing-phone {
+    font-size:24px;
+    margin-top:-15px;
 }
