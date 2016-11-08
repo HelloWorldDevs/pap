@@ -110,6 +110,9 @@ p {
 #slide-2 > div > div {
     margin-top:-100px;
 }
+.device-md #slide-3 .slider-caption.slider-caption-right {
+    margin-right:-100px;
+}
 #slide-3 h2 {
     font-weight:900;
     color:#FFF;
