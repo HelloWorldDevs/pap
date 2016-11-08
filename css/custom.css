@@ -519,3 +519,54 @@ p {
     padding-left:100px;
     padding-right:100px;
 }
+.device-md #membership-club {
+    background-position-x: 30%;
+}
+.device-md #membership-club > div > div > div.col-md-6.center {
+    text-align:right !important;
+}
+.device-md #membership-club > div > div > div.col-md-6.center {
+    left:10px;
+    position:relative;
+}
+.device-md #membership-club > div > div > div.col-md-6.center > p:nth-child(3) {
+    font-size:20px;
+}
+.device-sm #membership-club, .device-xs #membership-club, .device-xxs #membership-club {
+    background:#FFF;
+}
+.mem-cost {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.device-xs #membership-club h2 {
+    font-size:44px;
+    margin-bottom:10px;
+}
+
+.device-xxs #membership-club h2 {
+    font-size:30px;
+    margin-bottom:10px;
+}
+.device-xxs #membership-club h5 {
+    font-size:26px;
+}
+.device-xs #membership-club > div > div > div.col-md-6.center > p:nth-child(3), .device-xxs #membership-club > div > div > div.col-md-6.center > p:nth-child(3) {
+    font-size:20px;
+    line-height:25px;
+}
+.device-xxs #membership-club .list {
+    font-size:16px;
+    line-height:24px;
+    margin-bottom:15px;
+}
+.device-xxs #membership-club .button {
+    margin-top:30px;
+    padding-left:25px;
+    padding-right:25px;
+    width:100%;
+}
+.device-xxs #membership-club {
+    padding-top:30px;
+    padding-bottom:30px;
+}
