@@ -103,7 +103,7 @@ p {
     font-size:48px;
 }
 .device-sm #slide-2 p {
-    font-size:26px;
+    font-size:22px;
 }
 #slide-2 h2 {
     color:#3C948B;
@@ -133,7 +133,13 @@ p {
 #slide-3 .slider-caption.slider-caption-right {
     margin-right:-120px;
 }
-
+.device-md #slide-3 .slider-caption.slider-caption-right {
+    margin-top:-75px;
+}
+.device-sm #slide-3 .slider-caption.slider-caption-right {
+    margin-right:-20%;
+    margin-top:-75px;
+}
 #slide-3 h2 {
     font-weight:900;
     color:#FFF;
@@ -422,10 +428,16 @@ p {
 
 .device-xxs .section-specials h2 {
     font-size:44px;
+    margin-bottom:25px;
 }
-.device-xxs #summer-specials > div > div:nth-child(1) > div > div > p {
-    font-size:20px;
+.device-xxs .section-specials .col-xs-12 p {
+    line-height:35px !important;
 }
+.device-xxs .specials-row {
+    padding-left:30px;
+    padding-right:30px;
+}
+
 
 
 /** END SPECIALS **/
@@ -642,6 +654,7 @@ p {
 }
 .device-xxs #services h2 {
     font-size:42px;
+    line-height:45px;
 }
 .device-xxs .services > div > div.row .img {
     text-align:center;
@@ -1082,5 +1095,19 @@ a.social-icon.si-colored {
 }
 
 div.modal-body > div.img-wrap {
-    text-align:center;
+    text-align: center;
+}
+
+.modal-header .close {
+    font-size:50px;
+    color:#000 !important;
+}
+.device-xxs .service-modal h4 {
+    font-size:28px;
+}
+.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
+    box-shadow:none;
+}
+.device-lg #logo, .device-md #logo {
+    padding-left:10px;
 }
