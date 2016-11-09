@@ -521,6 +521,45 @@
                 </div>
             </section>
 
+            <!--Contact Section -->
+            <section id="contact" class="section-contact full-screen section nopadding nomargin noborder ohidden">
+                <div class="vertical-middle">
+                    <div class="container clearfix">
+                        <!-- Contact Form Overlay
+                        ============================================= -->
+                        <div id="contact-form-overlay-mini" class="clearfix">
+                            <div class="center">
+                                <a href="#" data-scrollto="#header" data-offset="0"><img src="images/pap-logo.svg" alt="Logo"></a>
+                            </div>
+                            <div class="center">
+                                <p class="p-1">18611 Detroit Ave </p>
+                                <p class="p-2">Lakewood, OH 44107</p>
+
+                                <p class="p-3"><a href="#">Click to view map</a></p>
+                                <p class="p-4">New Patient Hotline</p>
+                                <p class="p-5"><a href="tel:+12168004202">(216) 800&#8209;4202</a></p>
+                                <a class="button button-1" data-toggle="modal"
+                                   data-target="#contact-modal" data-target="#contact-modal" data-toggle="modal">REQUEST APPOINTMENT</a>
+                                <p class="p-6">Existing Patients Call:</p>
+                                <p class="p-7"><a href="tel:+12162212210">(216) 221&#8209;2210</a></p>
+                            </div>
+
+
+                        </div><!-- Contact Form Overlay End -->
+
+                    </div>
+                </div>
+                <!-- Google Map
+    ============================================= -->
+                <div id="google-map" class="hidden-sm hidden-xs hidden-xxs notoppadding gmap full-screen">
+                </div>
+            </section>
+
+            <section id="map-below" class="hidden-lg hidden-md">
+                <h6 class="hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs hidden-print">Empty Tag</h6>
+                <a href="#" target="_blank"><img src="images/pap.png" alt="Kirkpatrick Map"></a>
+            </section>
+
 
 
 
@@ -586,32 +625,23 @@
 <!-- Google Map Script
     ========================= -->
 <script>
-    var map, map2;
+    var map;
     function initMap() {
-        var myLatLng = {lat: 38.914417, lng: -120.001949};
-        var myLatLng2 = {lat: 38.969066, lng: -119.928776};
+        var myLatLng = {lat: 41.481220, lng: -81.827590};
         map = new google.maps.Map(document.getElementById('google-map'), {
             center: myLatLng,
-            zoom: 16
-        });
-        map2 = new google.maps.Map(document.getElementById('google-map-2'), {
-            center: {lat: 38.969066, lng: -119.928776},
-            maptype: 'ROADMAP',
-            zoom: 16,
+            zoom: 17,
+            scrollwheel: false
         });
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            title: 'Hello World!'
-        });
-        var marker2 = new google.maps.Marker({
-            position: myLatLng2,
-            map: map2,
-            title: 'Hello World!'
+            title: 'Aurora Family Dentistry'
         });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8M-t-mC3X8wlQvyy6a93iVQ3v2JGv9Q4&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8M-t-mC3X8wlQvyy6a93iVQ3v2JGv9Q4&callback=initMap" async
+        defer></script>
 
 </body>
 </html>

@@ -832,3 +832,163 @@ p {
 .device-xxs #patient-center h2 {
     font-size:36px;
 }
+
+/** CONTACT **/
+
+#contact {
+    max-height:720px;
+}
+#contact .img-wrap.center > a > img{
+    max-width:197px;
+    margin-bottom:10px;
+}
+#contact h5 {
+    font-size:21px;
+    color:#1AA1B2;
+    margin-bottom:0;
+    font-weight:700;
+    line-height:25px;
+}
+#contact p {
+    color:#6E7479;
+    margin-bottom:0;
+    line-height:25px;
+}
+#contact .city {
+    margin-bottom:20px;
+}
+#contact .map-link a {
+    color:#1AA1B2;
+}
+#contact .map-link {
+    margin-bottom:20px;
+}
+#contact .text-phone a {
+    font-size:32px;
+    color:#4A4A4A;
+
+}
+
+.device-xxs #contact .text-phone a {
+    font-size:26px;
+
+}
+.device-xxs #contact .text-phone-2 a {
+    font-size:22px;
+
+}
+.device-xxs #contact .button {
+    padding-left:20px;
+    padding-right:20px;
+}
+#contact .text-phone-2 a {
+    color:#4A4A4A;
+}
+#contact .contact-p {
+    margin-bottom:5px;
+}
+#contact .text-phone, #contact .text-phone-2 {
+    margin-bottom:15px;
+}
+#contact .text-phone a:hover, #contact .text-phone-2 a:hover {
+    text-decoration:none;
+}
+#contact .button {
+    padding-left:45px;
+    padding-right:45px;
+    margin-bottom:20px;
+}
+#contact-form-overlay-mini {
+    border-radius:12px;
+    padding:25px 35px;
+}
+.device-xxs #contact-form-overlay-mini {
+    padding:25px 25px;
+}
+
+#contact img {
+    margin-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#contact p {
+    color:#4A4A4A;
+    font-size:20px;
+}
+.view-map a {
+    font-size:18px;
+    color:#4E9B07;
+    text-decoration:underline;
+}
+#contact .button-2 {
+    background:#FFF;
+    color:#1385E8;
+    border:2px solid #1385E8;
+}
+#device-xxs #contact .button-2 {
+    font-size:18px;
+}
+#contact .button-2:hover {
+    background:#F0F0F0 !important;
+}
+
+#contact .button-1 {
+    padding:0 22px;
+
+}
+.device-xxs .button-1 {
+    width:100%;
+    padding:0 5px;
+    font-size:18px;
+}
+#contact .p-1, #contact .p-2, #contact .p-4, #contact .p-6 {
+    font-family:'Source Sans Pro', sans-serif;
+    color:#202020;
+    font-size:18px;
+    maring-bottom:0;
+    font-weight:400;
+}
+#contact .p-2 {
+    margin-bottom:20px;
+}
+#contact .p-3 {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:18px;
+    margin-bottom:20px;
+    font-weight:400;
+}
+#contact .p-3 a {
+    color:#3C948B;
+    text-decoration:underline;
+}
+#contact .p-5 {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:36px;
+    font-weight:400;
+    margin-bottom:25px;
+    margin-top:3px;
+}
+#contact .p-5 a, #contact .p-7 a {
+    color:#FF7A00;
+}
+#contact .button {
+    margin-bottom:15px;
+}
+#contact .p-6 {
+    margin-bottom:5px;
+}
+#contact .p-7 {
+    font-size:24px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:600;
+}
+#contact .button {
+    width:90%;
+}
+.device-xxs #contact .button {
+    font-size:16px;
+    width:100%;
+}
+.button:hover {
+    background:#E67300;
+}
