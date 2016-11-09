@@ -1038,3 +1038,12 @@ a.social-icon.si-colored {
     justify-content:center;
     position:relative;
 }
+/** STICKY NAV **/
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height:80px;
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    padding-top:29px;
+    padding-bottom:29px;
+}
