@@ -102,7 +102,8 @@ p {
 .device-sm #slide-2 h2 {
     font-size:48px;
 }
-.device-sm #slide-2 p {
+
+.device-sm #slide-2 p, .device-md #slide-2 p {
     font-size:22px;
 }
 #slide-2 h2 {
@@ -114,6 +115,10 @@ p {
 .icon-star3 {
     color:#FFBF00;
     font-size:30px;
+}
+
+.swiper_wrapper .swiper-slide {
+    background-position-y:0%;
 }
 #slide-2 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -128,7 +133,7 @@ p {
 }
 
 #slide-2 > div > div {
-    margin-top:-100px;
+    margin-top:-40px;
 }
 #slide-3 .slider-caption.slider-caption-right {
     margin-right:-120px;
