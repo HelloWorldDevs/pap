@@ -106,6 +106,9 @@ p {
 .device-sm #slide-2 p, .device-md #slide-2 p {
     font-size:22px;
 }
+.device-sm #slide-2 p {
+    padding-right:250px;
+}
 #slide-2 h2 {
     color:#3C948B;
     font-size:60px;
