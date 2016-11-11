@@ -1117,3 +1117,6 @@ div.modal-body > div.img-wrap {
 .device-lg #logo, .device-md #logo {
     padding-left:10px;
 }
+section h2 {
+    line-height:52px;
+}
